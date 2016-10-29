@@ -9,5 +9,15 @@
 <body>
 ${hello }<br>
 ${hi }
+<form action="put/1" method="post">
+  <input type="hidden" name="_method" value="PUT">
+  <input type="submit" value="put">
+</form>
+
+<form action="delete" method="post">
+  <input type="hidden" name="_method" value="DELETE">
+  <input name="id">
+  <input type="submit" value="delete">
+</form>
 </body>
 </html>
